@@ -1,5 +1,6 @@
 import React, { use, useState } from 'react';
 import AvailablePlayers from '../AvailablePlayers/AvailablePlayers';
+import SelectedPlayers from '../SelectedPlayers/SelectedPlayers';
 
 const Players = ({playersPromise}) => {
     console.log(playersPromise);
@@ -22,7 +23,10 @@ const Players = ({playersPromise}) => {
                     className={`btn ${selectedType === "Selected" ? "bg-[#E7FE29]" : ""} rounded-l-none rounded-r-xl`}>Selected (0)</button>
                 </div>
             </div>
-            <AvailablePlayers players={players}/>
+
+            {selectedType === "Available" ? <AvailablePlayers players={players}/>
+                : <SelectedPlayers />
+            }
         </div>
     );
 };
