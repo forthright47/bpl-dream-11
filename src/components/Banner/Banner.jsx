@@ -11,7 +11,7 @@ const Banner = () => {
             <p className="mb-6 text-white/60">
                 Beyond Boundaries Beyond Limits
             </p>
-            <button className="bg-[#d4f536] text-black font-bold px-8 py-3 rounded-lg">
+            <button className="bg-[#d4f536] text-black font-bold px-8 py-2 rounded-lg border-2 border-[#d4f536] outline outline-2 outline-[#d4f536] outline-offset-4">
                 Claim Free Credit
             </button>
         </div>
