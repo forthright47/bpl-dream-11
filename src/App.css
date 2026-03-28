@@ -1,0 +1,9 @@
+.banner-bg {
+    background: 
+        radial-gradient(ellipse at 0% 50%, #4f2be8 0%, transparent 50%),
+        radial-gradient(ellipse at 100% 50%, #c2185b 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 100%, #1a6b3a 0%, transparent 60%),
+        #0d0d1a;
+    background-size: cover;
+    background-position: center;
+}
