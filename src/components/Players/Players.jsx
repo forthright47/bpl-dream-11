@@ -17,7 +17,7 @@ const Players = ({ playersPromise, setCoin, coin }) => {
                     ? <h2 className='font-bold text-xl lg:text-3xl'>Available Players</h2>
                     : <h2 className='font-bold text-xl lg:text-2xl'>Selected Players ({selectedPlayers.length}/{players.length})</h2>
                 }
-                <div className='flex flex-col sm:flex-row self-end sm:self-auto'>
+                <div className='flex flex-col sm:flex-row space-y-3 sm:self-auto'>
                     <button
                         onClick={() => setSelectedType("Available")}
                         className={`btn text-sm px-3 sm:text-base sm:px-4 ${selectedType === "Available" ? "bg-[#E7FE29]" : ""} rounded-xl sm:rounded-r-none sm:rounded-l-xl`}>
