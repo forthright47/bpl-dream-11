@@ -27,7 +27,7 @@ function App() {
         <Players playersPromise={playersPromise} setCoin={setCoin} coin={coin} />
       </Suspense>
       <div className='relative'>
-        <div className='border border-gray-300 rounded-3xl p-5 container mx-auto -mb-35 relative z-10'>
+        <div className='border border-gray-300 rounded-3xl p-3 lg:p-5 container mx-auto -mb-28 relative z-10'>
           <Newsletter />
         </div>
         <Footer />
