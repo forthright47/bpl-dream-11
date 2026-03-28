@@ -7,7 +7,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
     "price": 1500000,
-    "playerImg": "https://example.com/images/virat-kohli.jpg"
+    "playerImg": "https://i.ibb.co.com/LzN0G76H/images.webp"
   },
   {
     "playerName": "Joe Root",
@@ -48,5 +48,75 @@
     "bowlingStyle": "Left-arm fast",
     "price": 1100000,
     "playerImg": "https://example.com/images/mitchell-starc.jpg"
+  },
+  {
+    "playerName": "Kane Williamson",
+    "playerCountry": "New Zealand",
+    "playerType": "Batsman",
+    "rating": 94,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "price": 1350000,
+    "playerImg": "https://example.com/images/kane-williamson.jpg"
+  },
+  {
+    "playerName": "Rohit Sharma",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 93,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "price": 1450000,
+    "playerImg": "https://example.com/images/rohit-sharma.jpg"
+  },
+  {
+    "playerName": "David Warner",
+    "playerCountry": "Australia",
+    "playerType": "Batsman",
+    "rating": 89,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "price": 1250000,
+    "playerImg": "https://example.com/images/david-warner.jpg"
+  },
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-rounder",
+    "rating": 92,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm orthodox",
+    "price": 1300000,
+    "playerImg": "https://example.com/images/shakib-al-hasan.jpg"
+  },
+  {
+    "playerName": "Jasprit Bumrah",
+    "playerCountry": "India",
+    "playerType": "Bowler",
+    "rating": 94,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": 1400000,
+    "playerImg": "https://example.com/images/jasprit-bumrah.jpg"
+  },
+  {
+    "playerName": "Trent Boult",
+    "playerCountry": "New Zealand",
+    "playerType": "Bowler",
+    "rating": 91,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Left-arm fast medium",
+    "price": 1150000,
+    "playerImg": "https://example.com/images/trent-boult.jpg"
+  },
+  {
+    "playerName": "Jos Buttler",
+    "playerCountry": "England",
+    "playerType": "Wicketkeeper-Batsman",
+    "rating": 93,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "N/A",
+    "price": 1350000,
+    "playerImg": "https://example.com/images/jos-buttler.jpg"
   }
 ]

@@ -3,7 +3,7 @@ import cricketLogo from '../../assets/banner-main.png';
 
 const Banner = () => {
     return (
-        <div className="banner-bg rounded-2xl text-center py-16 px-6 max-w-11/12 mx-auto mt-5">
+        <div className="banner-bg rounded-2xl text-center py-16 px-6 container mx-auto mt-5">
             <img src={cricketLogo} alt="Cricket" className="w-44 mx-auto mb-4" />
             <h1 className="text-4xl font-bold mb-3 text-white">
                 Assemble Your Ultimate Dream 11 Cricket Team

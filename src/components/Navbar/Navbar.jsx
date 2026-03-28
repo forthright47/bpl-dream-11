@@ -4,7 +4,7 @@ import currency from '../../assets/currency.png';
 
 const Navbar = () => {
     return (
-        <div className="navbar items-center max-w-11/12 mx-auto">
+        <div className="navbar items-center container mx-auto">
             <div className="navbar-start">
                 <img className='h-18 w-20 ' src={logo} alt="" />
             </div>
