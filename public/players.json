@@ -6,7 +6,7 @@
     "rating": 95,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
-    "price": 1500000,
+    "price": 2500,
     "playerImg": "https://i.ibb.co.com/JjnJhrtK/virat-kohli-3.webp"
   },
   {
@@ -16,7 +16,7 @@
     "rating": 92,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
-    "price": 1300000,
+    "price": 1000,
     "playerImg": "https://i.ibb.co.com/Z6wwG1tz/joe-root-2.webp"
   },
   {
@@ -26,7 +26,7 @@
     "rating": 91,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
-    "price": 1200000,
+    "price": 2000,
     "playerImg": "https://i.ibb.co.com/HfCHtnvr/babar-azam-2.jpg"
   },
   {
@@ -36,7 +36,7 @@
     "rating": 93,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast medium",
-    "price": 1400000,
+    "price": 800,
     "playerImg": "https://i.ibb.co.com/84BWfDgD/ben-stokes.webp"
   },
   {
@@ -46,7 +46,7 @@
     "rating": 90,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm fast",
-    "price": 1100000,
+    "price": 500,
     "playerImg": "https://i.ibb.co.com/k6GdWB8z/mitchell-starc.webp"
   },
   {
@@ -56,7 +56,7 @@
     "rating": 94,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
-    "price": 1350000,
+    "price": 3000,
     "playerImg": "https://i.ibb.co.com/nMyy8Q5L/kane-williamson.jpg"
   },
   {
@@ -66,7 +66,7 @@
     "rating": 93,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
-    "price": 1450000,
+    "price": 500,
     "playerImg": "https://i.ibb.co.com/3mJ47fmS/rohit-sharma-2.avif"
   },
   {
@@ -76,7 +76,7 @@
     "rating": 89,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm leg break",
-    "price": 1250000,
+    "price": 1500,
     "playerImg": "https://i.ibb.co.com/8ghkkcN1/david-warner.jpg"
   },
   {
@@ -86,7 +86,7 @@
     "rating": 94,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
-    "price": 1400000,
+    "price": 500,
     "playerImg": "https://i.ibb.co.com/MD1MNJxW/bumrah.webp"
   },
   {
@@ -96,7 +96,7 @@
     "rating": 91,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Left-arm fast medium",
-    "price": 1150000,
+    "price": 500,
     "playerImg": "https://i.ibb.co.com/MDzYM9L3/trent-boult.jpg"
   },
   {
@@ -106,7 +106,7 @@
     "rating": 93,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "N/A",
-    "price": 1350000,
+    "price": 700,
     "playerImg": "https://i.ibb.co.com/2YmnsBCn/joss-buttler.jpg"
   }
 ]
