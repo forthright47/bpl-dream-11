@@ -80,16 +80,6 @@
     "playerImg": "https://i.ibb.co.com/8ghkkcN1/david-warner.jpg"
   },
   {
-    "playerName": "Shakib Al Hasan",
-    "playerCountry": "Bangladesh",
-    "playerType": "All-rounder",
-    "rating": 92,
-    "battingStyle": "Left-hand bat",
-    "bowlingStyle": "Left-arm orthodox",
-    "price": 1300000,
-    "playerImg": "https://i.ibb.co.com/VWtzZWc4/sakib-al-hasan.jpg"
-  },
-  {
     "playerName": "Jasprit Bumrah",
     "playerCountry": "India",
     "playerType": "Bowler",
