@@ -4,6 +4,18 @@
         radial-gradient(ellipse at 100% 50%, #c2185b 0%, transparent 50%),
         radial-gradient(ellipse at 50% 100%, #1a6b3a 0%, transparent 60%),
         #0d0d1a;
-    background-size: cover;
+    background-size: 200% 200%;
     background-position: center;
+    animation: waveGradient 6s ease infinite;
+}
+@keyframes waveGradient {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes float {
+    0%   { transform: translateY(0px); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
 }
