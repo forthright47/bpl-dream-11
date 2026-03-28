@@ -2,10 +2,10 @@ import React from 'react';
 
 const Newsletter = () => {
     return (
-        <div className='bg-gradient-to-br from-white via-blue-50 to-orange-50 rounded-2xl border border-gray-200 text-center py-16 px-6 container mx-auto my-10'>
+        <div className='relative z-10 bg-gradient-to-br from-white via-blue-50 to-orange-100 rounded-2xl text-center py-16 px-6'>
             <h2 className='text-3xl font-bold mb-3'>Subscribe to our Newsletter</h2>
             <p className='text-gray-500 mb-8'>Get the latest updates and news right in your inbox!</p>
-            <div className='flex justify-center gap-0'>
+            <div className='flex justify-center'>
                 <input
                     type='email'
                     placeholder='Enter your email'
