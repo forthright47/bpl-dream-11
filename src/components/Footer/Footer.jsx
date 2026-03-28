@@ -24,10 +24,10 @@ const Footer = () => {
                 <div>
                     <h3 className='font-bold text-lg mb-4'>Quick Links</h3>
                     <ul className='text-white/60 text-sm space-y-2'>
-                        <li className='flex items-center gap-2'><span>▪</span> Home</li>
-                        <li className='flex items-center gap-2'><span>▪</span> Services</li>
-                        <li className='flex items-center gap-2'><span>▪</span> About</li>
-                        <li className='flex items-center gap-2'><span>▪</span> Contact</li>
+                        <li className='flex items-center gap-2'><span>•</span> Home</li>
+                        <li className='flex items-center gap-2'><span>•</span> Services</li>
+                        <li className='flex items-center gap-2'><span>•</span> About</li>
+                        <li className='flex items-center gap-2'><span>•</span> Contact</li>
                     </ul>
                 </div>
 
