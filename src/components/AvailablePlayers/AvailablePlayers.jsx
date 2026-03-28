@@ -8,11 +8,11 @@ const AvailablePlayers = ({ players }) => {
                 {
                     players.map(player => {
                         return <div className="card bg-base-100 shadow-sm">
-                            <figure>
-                                <img
+                            <figure className="h-70 overflow-hidden p-3">
+                                <img className="w-full h-full object-cover rounded-xl"
                                     src={player.playerImg} />
                             </figure>
-                            <div className="card-body">
+                            <div className="card-body -m-3">
                                 <h2 className="card-title"><FaUser /> {player.playerName}</h2>
                                 <div className='flex justify-between items-center'>
                                     <div className='flex items-center gap-2'>

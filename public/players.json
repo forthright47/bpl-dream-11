@@ -7,7 +7,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
     "price": 1500000,
-    "playerImg": "https://i.ibb.co.com/LzN0G76H/images.webp"
+    "playerImg": "https://i.ibb.co.com/JjnJhrtK/virat-kohli-3.webp"
   },
   {
     "playerName": "Joe Root",
@@ -17,7 +17,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
     "price": 1300000,
-    "playerImg": "https://example.com/images/joe-root.jpg"
+    "playerImg": "https://i.ibb.co.com/Z6wwG1tz/joe-root-2.webp"
   },
   {
     "playerName": "Babar Azam",
@@ -27,7 +27,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
     "price": 1200000,
-    "playerImg": "https://example.com/images/babar-azam.jpg"
+    "playerImg": "https://i.ibb.co.com/HfCHtnvr/babar-azam-2.jpg"
   },
   {
     "playerName": "Ben Stokes",
@@ -37,7 +37,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast medium",
     "price": 1400000,
-    "playerImg": "https://example.com/images/ben-stokes.jpg"
+    "playerImg": "https://i.ibb.co.com/84BWfDgD/ben-stokes.webp"
   },
   {
     "playerName": "Mitchell Starc",
@@ -47,7 +47,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm fast",
     "price": 1100000,
-    "playerImg": "https://example.com/images/mitchell-starc.jpg"
+    "playerImg": "https://i.ibb.co.com/k6GdWB8z/mitchell-starc.webp"
   },
   {
     "playerName": "Kane Williamson",
@@ -57,7 +57,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
     "price": 1350000,
-    "playerImg": "https://example.com/images/kane-williamson.jpg"
+    "playerImg": "https://i.ibb.co.com/nMyy8Q5L/kane-williamson.jpg"
   },
   {
     "playerName": "Rohit Sharma",
@@ -67,7 +67,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
     "price": 1450000,
-    "playerImg": "https://example.com/images/rohit-sharma.jpg"
+    "playerImg": "https://i.ibb.co.com/3mJ47fmS/rohit-sharma-2.avif"
   },
   {
     "playerName": "David Warner",
@@ -77,7 +77,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm leg break",
     "price": 1250000,
-    "playerImg": "https://example.com/images/david-warner.jpg"
+    "playerImg": "https://i.ibb.co.com/8ghkkcN1/david-warner.jpg"
   },
   {
     "playerName": "Shakib Al Hasan",
@@ -87,7 +87,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm orthodox",
     "price": 1300000,
-    "playerImg": "https://example.com/images/shakib-al-hasan.jpg"
+    "playerImg": "https://i.ibb.co.com/VWtzZWc4/sakib-al-hasan.jpg"
   },
   {
     "playerName": "Jasprit Bumrah",
@@ -97,7 +97,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
     "price": 1400000,
-    "playerImg": "https://example.com/images/jasprit-bumrah.jpg"
+    "playerImg": "https://i.ibb.co.com/MD1MNJxW/bumrah.webp"
   },
   {
     "playerName": "Trent Boult",
@@ -107,7 +107,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Left-arm fast medium",
     "price": 1150000,
-    "playerImg": "https://example.com/images/trent-boult.jpg"
+    "playerImg": "https://i.ibb.co.com/MDzYM9L3/trent-boult.jpg"
   },
   {
     "playerName": "Jos Buttler",
@@ -117,6 +117,6 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "N/A",
     "price": 1350000,
-    "playerImg": "https://example.com/images/jos-buttler.jpg"
+    "playerImg": "https://i.ibb.co.com/2YmnsBCn/joss-buttler.jpg"
   }
 ]
