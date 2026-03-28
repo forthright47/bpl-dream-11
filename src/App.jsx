@@ -22,7 +22,10 @@ function App() {
     <div>
       <Navbar coin={coin} />
       <Banner />
-      <Suspense fallback={<span className="loading loading-dots loading-xl"></span>
+      <Suspense fallback={
+        <div className='py-10 text-center'>
+          <span className="loading loading-dots loading-xl"></span>
+        </div>
       }>
         <Players playersPromise={playersPromise} setCoin={setCoin} coin={coin} />
       </Suspense>
