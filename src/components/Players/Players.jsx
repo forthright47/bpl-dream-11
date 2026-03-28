@@ -2,7 +2,7 @@ import React, { use, useState } from 'react';
 import AvailablePlayers from '../AvailablePlayers/AvailablePlayers';
 import SelectedPlayers from '../SelectedPlayers/SelectedPlayers';
 
-const Players = ({playersPromise, setCoin, coin}) => {
+const Players = ({ playersPromise, setCoin, coin }) => {
     console.log(playersPromise);
 
     const players = use(playersPromise);
@@ -14,20 +14,21 @@ const Players = ({playersPromise, setCoin, coin}) => {
 
     return (
         <div className='container mx-auto my-8'>
-            <div className='flex justify-between gap-4 items-center mb-5'>
-                {selectedType === "Available" ? <h2 className='font-bold text-3xl'>Available Players</h2> : <h2 className='font-bold text-2xl'>Selected Players ({selectedPlayers.length}/{players.length})</h2>}
-                <div>
-                    <button
-                    onClick={()=>setSelectedType("Available")}
-                    className={`btn ${selectedType === "Available" ? "bg-[#E7FE29]" : ""} rounded-r-none rounded-l-xl`}>Available</button>
-                    <button
-                    onClick={()=>setSelectedType("Selected")}
-                    className={`btn ${selectedType === "Selected" ? "bg-[#E7FE29]" : ""} rounded-l-none rounded-r-xl`}>Selected ({selectedPlayers.length})</button>
-                </div>
+            <div className='flex flex-col sm:flex-row self-end sm:self-auto'>
+                <button
+                    onClick={() => setSelectedType("Available")}
+                    className={`btn text-sm px-3 sm:text-base sm:px-4 ${selectedType === "Available" ? "bg-[#E7FE29]" : ""} rounded-xl sm:rounded-r-none sm:rounded-l-xl`}>
+                    Available
+                </button>
+                <button
+                    onClick={() => setSelectedType("Selected")}
+                    className={`btn text-sm px-3 sm:text-base sm:px-4 ${selectedType === "Selected" ? "bg-[#E7FE29]" : ""} rounded-xl sm:rounded-l-none sm:rounded-r-xl`}>
+                    Selected ({selectedPlayers.length})
+                </button>
             </div>
 
-            {selectedType === "Available" ? <AvailablePlayers players={players} setCoin={setCoin} coin={coin} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}/>
-                : <SelectedPlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} setCoin={setCoin} coin={coin}/>
+            {selectedType === "Available" ? <AvailablePlayers players={players} setCoin={setCoin} coin={coin} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} />
+                : <SelectedPlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} setCoin={setCoin} coin={coin} />
             }
         </div>
     );
